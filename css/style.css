@@ -1,6 +1,6 @@
 body {
   font-family: "Open Sans", sans-serif;
-  margin: 50px 10px;
+  margin: 50px 10px 0 10px;
   background: #fff9c4;
 }
 section {
@@ -15,7 +15,7 @@ ul li {
   list-style: none;
 }
 .logo {
-  width: 40%;
+  width: 200px;
   display: flex;
   margin: 0 auto;
   border: solid 1px #bdbdbd;
@@ -40,9 +40,10 @@ ul {
 
 .section-text {
   text-align: center;
-  margin: 20px 35px;
+  margin: 2% 25%;
   font-size: 12px;
   font-weight: 700;
+  max-width: 500px;
 }
 
 .section-ul {
@@ -70,14 +71,24 @@ ul {
   box-shadow: none;
 }
 
-.contact, .copyright {
+.contact,
+.copyright {
   font-size: 10px;
 }
 
-.copyright{
+.copyright {
   margin-top: 25px;
 }
 
-.copyright p {
+.copyright p,
+.link-whatsapp p {
   display: inline;
+}
+
+.link-whatsapp:hover {
+  text-decoration: underline;
+}
+
+.link-whatsapp p:nth-child(1) {
+  margin-right: 5px;
 }
