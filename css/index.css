@@ -40,10 +40,10 @@ ul {
 
 .section-text {
   text-align: center;
-  margin: 2% 25%;
   font-size: 12px;
   font-weight: 700;
   max-width: 500px;
+  margin: 0 auto;
 }
 
 .section-ul {
@@ -91,4 +91,9 @@ ul {
 
 .link-whatsapp p:nth-child(1) {
   margin-right: 5px;
+}
+
+.container .title{
+  text-align: center;
+  margin-top: 40px;
 }
