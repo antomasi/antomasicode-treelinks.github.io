@@ -54,7 +54,7 @@ ul {
   margin: 15px auto;
   background: white;
   border: solid 1px grey;
-  width: fit-content;
+  width: 200px;
   border-radius: 5px;
   padding: 15px;
   box-sizing: border-box;
@@ -69,28 +69,6 @@ ul {
   font-size: 12px;
   border: none;
   box-shadow: none;
-}
-
-.contact,
-.copyright {
-  font-size: 10px;
-}
-
-.copyright {
-  margin-top: 25px;
-}
-
-.copyright p,
-.link-whatsapp p {
-  display: inline;
-}
-
-.link-whatsapp:hover {
-  text-decoration: underline;
-}
-
-.link-whatsapp p:nth-child(1) {
-  margin-right: 5px;
 }
 
 
